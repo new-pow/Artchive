@@ -26,7 +26,7 @@ import java.util.ArrayList;
 public class AitemsService {
 
     //private String serviceId = "456332lr6qf"; //artchive
-    private String serviceId = "fd1vb0un437"; //AIItems
+    private String serviceId = "su7ccl6ha39"; //AIItems
 
     @Autowired
     @Qualifier("IAitemsDAO")

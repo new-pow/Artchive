@@ -22,7 +22,7 @@
 		   type:"post",
 		   url:"/myPage/updateUser/",
 		   data: {
-			   "userName":userName,
+			  "userName":userName,
 			  "nickname": userNickname,
 			  "userEmail1":userEmail1,
 			  "userEmail2":userEmail2

@@ -18,10 +18,7 @@ public class OCRViewController {
 	
 	@Autowired
 	OCRService ocrService;
-	
 
-	// OCR 광학 문자 인식 예제
-	// (1) 결과를 콘솔에 출력
 	@RequestMapping("/myPage/OCRForm")
 	public String OCRGeneral() {
 		return "/myPage/uploadTicket";
@@ -31,9 +28,9 @@ public class OCRViewController {
 	@RequestMapping("/myPage/uploadTicket")
 	public TicketVO OCRTemplate(@RequestParam("uploadFile") MultipartFile file) throws IOException {
 		
-		// String uploadPath = "/Library/upload/";
+		String uploadPath = "/Library/upload/";
 		
-		String uploadPath = "/usr/local/project/images/";
+		// String uploadPath = "/usr/local/project/images/";
 		
 		String originalFileName = file.getOriginalFilename();
 		String filePathName = uploadPath + originalFileName;

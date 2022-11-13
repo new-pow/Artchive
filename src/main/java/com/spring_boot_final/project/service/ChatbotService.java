@@ -27,7 +27,7 @@ public class ChatbotService {
 	public String main(String voiceMessage) {
 		// voiceMessage : 질문 메시지
 		
-				 String apiURL = "https://m6nobbvqw6.apigw.ntruss.com/custom/v1/7768/93e57ea337726d826e185032b0800bd4c00520a43d5b076c0a5b4f2903c50e80";
+				 String apiURL = "https://3f5cltg9y1.apigw.ntruss.com/custom/v1/8149/c71bfe6da7da93deca5e47d397d2d4859e3a7e691b0e28851dabcb442f2ed324";
 				 
 		        String chatbotMessage = "";  // 답변 메시지
 
@@ -85,7 +85,7 @@ public class ChatbotService {
 			public String mainJSON(String voiceMessage) {
 				// voiceMessage : 질문 메시지
 					
-				 String apiURL = "https://m6nobbvqw6.apigw.ntruss.com/custom/v1/7768/93e57ea337726d826e185032b0800bd4c00520a43d5b076c0a5b4f2903c50e80";
+				 String apiURL = "https://3f5cltg9y1.apigw.ntruss.com/custom/v1/8149/c71bfe6da7da93deca5e47d397d2d4859e3a7e691b0e28851dabcb442f2ed324";
 				 
 		        String chatbotMessage = "";  // 답변 메시지
 
